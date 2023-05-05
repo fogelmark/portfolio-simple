@@ -127,6 +127,7 @@
 @media (max-width: 900px) {
   .socials {
     width: 95%;
+    margin-bottom: 3rem;
   }
 }
 
@@ -183,6 +184,11 @@ a:active {
   margin-top: 0.3rem;
   color: #fefae0;
   transition: 0.4s;
+}
+@media (max-width: 900px) {
+  .name-heading > div a {
+    margin-left: 0;
+  }
 }
 .name-heading > div a:hover {
   color: #95a5a6;

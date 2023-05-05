@@ -69,6 +69,10 @@ a:active {
 		color: $primary-color;
 		transition: .4s;
 
+		@include for-mobile {
+			margin-left: 0;
+		}
+
 		&:hover {
 			color: #95a5a6;
 		}
