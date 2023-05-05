@@ -1,0 +1,33 @@
+$primary-color: #fefae0;
+$secondary-color: #95a5a6;
+
+@mixin for-mobile {
+  @media (max-width: 900px) {
+    @content;
+  }
+}
+
+.socials {
+  display: flex;
+  justify-content: space-around;
+  align-self: center;
+  width: 20%;
+  cursor: pointer;
+  margin: 1rem 0;
+
+  .icon {
+    width: 100%;
+    // color: #e8eddf;
+    // color: $primary-color;
+    transition: .4s;
+
+    &:hover {
+      color: #95a5a6;
+    }
+  }
+
+  @include for-mobile {
+    width: 95%;
+    // margin-bottom: 2rem;
+  }
+}
