@@ -10,8 +10,8 @@ import jsLogo from './assets/js-logo.png'
 import cssLogo from './assets/css-logo.png'
 import htmlLogo from './assets/html-logo.png'
 import sassLogo from './assets/sass-logo.png'
-import grainBg from './assets/grain-bg.png'
 import Socials from './components/Socials'
+import About from './components/About'
 
 const App = () => {
 
@@ -75,6 +75,7 @@ const App = () => {
           ))
         }
       </div>
+      <About />
       <Socials />
     </div>
   )

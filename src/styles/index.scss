@@ -17,7 +17,7 @@ $text-shadow: 2px 2px #00000036;
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font-weight: 700;
+	font-weight: 400;
 	text-shadow: $text-shadow;
 	letter-spacing: .2px;
 }
@@ -47,7 +47,6 @@ a:active {
 
 .container {
 	width: 100%;
-
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -55,9 +54,9 @@ a:active {
 	gap: 3rem;
 }
 
-.name-heading {
-	padding: 1rem;
-}
+// .name-heading {
+// 	padding: 1rem;
+// }
 
 .name-heading>div {
 	display: flex;
@@ -74,7 +73,7 @@ a:active {
 		}
 
 		&:hover {
-			color: #95a5a6;
+			color: hsl(184, 9%, 32%);
 		}
 	}
 
@@ -86,9 +85,12 @@ a:active {
 .name-heading h1 {
 	font-size: 3rem;
 	text-transform: uppercase;
+	border-bottom: 1px solid hsla(188, 9%, 52%, 0.212);
 
 	@include for-mobile {
+		margin-top: 2rem;
 		text-align: center;
+		border: none;
 	}
 }
 
@@ -131,4 +133,19 @@ a:active {
 .student-info {
 	display: flex;
 	flex-direction: column;
+}
+
+.about-container {
+	width: 50%;
+	border-bottom: 1px solid hsla(188, 9%, 52%, 0.212);
+
+	p:last-child {
+		margin-bottom: 1rem;
+	}
+
+	@media (max-width: 1200px) {
+		width: 80%;
+		// text-align: center;
+		margin: 0 auto;
+	}
 }

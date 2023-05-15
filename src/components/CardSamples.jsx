@@ -15,9 +15,9 @@ const CardSamples = ({ card }) => {
           <img className='lang-logo' src={card.logo[2]} />
           <img className='lang-logo' src={card.logo[3]} />
         </div>
-        <div className='demo-container'>
+        {/* <div className='demo-container'>
           <a href="#">DEMO HERE</a>
-        </div>
+        </div> */}
       </div>
     </div>
   )
