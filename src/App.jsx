@@ -11,7 +11,7 @@ import cssLogo from './assets/css-logo.png'
 import htmlLogo from './assets/html-logo.png'
 import sassLogo from './assets/sass-logo.png'
 import Socials from './components/Socials'
-import About from './components/About'
+import Accordion from './components/Accordion'
 
 const App = () => {
 
@@ -24,7 +24,7 @@ const App = () => {
         cssLogo,
         jsLogo
       ],
-      desc: 'Simple weather app with geo location.',
+      desc: 'Weather app with geo location.',
       link: 'https://fogel-weather-app.netlify.app'
     },
     {
@@ -75,8 +75,8 @@ const App = () => {
           ))
         }
       </div>
-      <About />
       <Socials />
+      <Accordion />
     </div>
   )
 }

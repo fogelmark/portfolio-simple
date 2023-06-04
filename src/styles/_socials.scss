@@ -9,22 +9,14 @@ $secondary-color: #95a5a6;
 
 .socials {
   display: flex;
-  justify-content: space-around;
-  align-self: center;
-  width: 10%;
-  cursor: pointer;
-  margin: 1rem 0;
+  gap: 1rem;
 
   .icon {
+    cursor: pointer;
     transition: .4s;
 
     &:hover {
       color: hsl(184, 9%, 32%);
     }
-  }
-
-  @include for-mobile {
-    width: 40%;
-    margin-bottom: 3rem;
   }
 }
