@@ -76,7 +76,7 @@ const App = () => {
         }
       </div>
       <Socials />
-      <Accordion />
+      {/* <Accordion /> */}
     </div>
   )
 }

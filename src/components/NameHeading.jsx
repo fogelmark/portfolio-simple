@@ -16,7 +16,6 @@ const NameHeading = () => {
         </div>
         <div className='samples'>
           <p>Check out some samples</p>
-          {/* <FaAngleDown className='arrow-icon' /> */}
           <BsArrow90DegRight size={30} className='arrow-icon' />
         </div>
       </div>

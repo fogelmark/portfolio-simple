@@ -34,12 +34,10 @@ body {
 	font-family: $font-family;
 	background-color: #0d1b2a;
 	color: #fefae0;
-	// display: grid;
-	// place-items: center;
 }
 
 .content {
-	width: min(170ch, 100% - 4rem);
+	// width: min(170ch, 100% - 4rem);
 	margin-inline: auto;
 
 	display: flex;

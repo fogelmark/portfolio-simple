@@ -1,4 +1,3 @@
-import { useState } from 'react'
 
 const CardSamples = ({ card }) => {
   return (
@@ -10,14 +9,11 @@ const CardSamples = ({ card }) => {
         <p className='span-2'>{card.desc}</p>
         <span className='line span-2'></span>
         <div className='made-with'>
-          <img className='lang-logo' src={card.logo[0]} />
-          <img className='lang-logo' src={card.logo[1]} />
-          <img className='lang-logo' src={card.logo[2]} />
-          <img className='lang-logo' src={card.logo[3]} />
+          <img className='lang-logo' src={card.logo[0]} loading="lazy" />
+          <img className='lang-logo' src={card.logo[1]} loading="lazy" />
+          <img className='lang-logo' src={card.logo[2]} loading="lazy" />
+          <img className='lang-logo' src={card.logo[3]} loading="lazy" />
         </div>
-        {/* <div className='demo-container'>
-          <a href="#">DEMO HERE</a>
-        </div> */}
       </div>
     </div>
   )
