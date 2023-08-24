@@ -10,6 +10,7 @@ import jsLogo from './assets/js-logo.png'
 import cssLogo from './assets/css-logo.png'
 import htmlLogo from './assets/html-logo.png'
 import sassLogo from './assets/sass-logo.png'
+import reactLogo from './assets/react-logo.png'
 import Socials from './components/Socials'
 import Accordion from './components/Accordion'
 
@@ -22,7 +23,7 @@ const App = () => {
       logo: [
         htmlLogo,
         cssLogo,
-        jsLogo
+        jsLogo,
       ],
       desc: 'Weather app with geo location.',
       link: 'https://fogel-weather-app.netlify.app'
@@ -31,13 +32,11 @@ const App = () => {
       id: 2,
       image: mtgCounter,
       logo: [
-        htmlLogo,
-        cssLogo,
-        jsLogo,
+        reactLogo,
         sassLogo
       ],
       desc: 'Life points tracking mobile app.',
-      link: 'https://stalwart-bavarois-e87624.netlify.app'
+      link: 'https://mtgcounterapp.netlify.app/'
     },
     {
       id: 3,
